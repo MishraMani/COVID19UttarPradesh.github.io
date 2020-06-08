@@ -1,0 +1,18 @@
+ .blinking{
+    animation: blinkingText 1s infinite;
+            font-family: 'Noto Serif', serif;
+            font-style: italic;
+            width: 100%;
+            padding:10px;
+            font-weight:bold;
+            text-align: center;
+            font-size: 16px;
+        }
+    @keyframes blinkingText{
+    0%{     color: black;    }
+    49%{    color:red; }
+    60%{    color: blue; }
+    99%{    color:transparent;  }
+    100%{   color: green;    }
+}
+
